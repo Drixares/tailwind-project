@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
+    <!-- Development version -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <title>Rendu semaine de Tailwind</title>
+  </head>
+  <body>
+    <div id="app" class="px-5 text-gray-950">
+      <div class="w-full pt-20">
+        <h1 class="text-center text-6xl font-semibold">Clash Pokemon</h1>
+        <div class="w-full mt-10 flex flex-col md:flex-row max-md:items-center justify-center gap-8">
+          <div class="flex flex-col items-center gap-1 w-full max-w-80 ">
+            <div class="w-full aspect-square overflow-hidden p-10 bg-gray-50 border border-gray-200">
+              <img src="./img/tortank.png" alt="profile picture" class="size-full" />
+            </div>
+            <div class="max-w-64 w-full flex flex-col text-gray-700 p-4 bg-gray-200 rounded-md -translate-y-8">
+              <h3 class="text-3xl font-medium mb-2 text-gray-950">Attaques :</h3>
+              <span>
+                Hydrocanon (Hydro Pump)
+              </span>
+              <span>
+                Pistolet à O (Water Gun)
+              </span>
+              <span>
+                Surf
+              </span>
+              <div class="block md:hidden">
+                <span>
+                  Laser Glace (Ice Beam)
+                </span>
+                <span>
+                  Ébullition (Scald)
+                </span>
+                <span>
+                  Morsure (Bite)
+                </span>
+                <span>
+                  Hydroqueue (Aqua Tail)
+                </span>
+                <span>
+                  Vibraqua (Water Pulse)
+                </span>
+                <span>
+                  Cascade (Waterfall)
+                </span>
+                <span>
+                  Abri (Protect)
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="hidden md:flex flex-col justify-end text-9xl font-thin h-full max-h-80 relative translate-y-1/2">
+            <span>VS</span>
+          </div>
+          <div class="flex flex-col items-center gap-2 w-full max-w-80">
+            <div class="w-full max-w-80 aspect-square overflow-hidden p-10 bg-gray-50 border border-gray-200">
+              <img src="./img/pikachu.png" alt="profile picture" class="size-full" />
+            </div>
+            <div class="max-w-64 w-full flex flex-col text-gray-700 p-4 bg-gray-200 rounded-md -translate-y-8">
+              <h3 class="text-3xl font-medium mb-2 text-gray-950">Attaques :</h3>
+              <span>
+                Tonnerre (Thunder)
+              </span>
+              <span>
+                Éclair (Thunder Shock)
+              </span>
+              <span>
+                Fatal-Foudre (Thunderbolt)
+              </span>
+              <div class="block md:hidden">
+                <span>
+                  Vive-Attaque (Quick Attack)
+                </span>
+                <span>
+                  Cage-Éclair (Thunder Wave)
+                </span>
+                <span>
+                  Météores (Swift)
+                </span>
+                <span>
+                  Électacle (Volt Tackle)
+                </span>
+                <span>
+                  Queue de Fer (Iron Tail)
+                </span>
+                <span>
+                  Élecanon (Electro Ball)
+                </span>
+                <span>
+                  Tonnerre Maximum (Z-Move exclusif)
+                </span>
+              </div>
+            </div>            
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
